@@ -4,7 +4,6 @@ import "./App.css";
 
 const LIMIT = 9;
 
-
 function getPageNumbers(current, total) {
   if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
 
@@ -54,7 +53,7 @@ function App() {
   return (
     <div className="app">
       <header className="app__header">
-        <h1 className="app__title">Random User Profiles</h1>
+        <h1 className="app__title">Profile Lens</h1>
         <p className="app__subtitle">Discover people from around the world</p>
       </header>
 
